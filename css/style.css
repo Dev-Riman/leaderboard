@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Poppins:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.main-nav {
+    background: #8E2DE2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.top_learner_title {
+    color: #4A00E0;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.players img {
+    width: 70px;
+}
+.blog {
+    display: flex;
+}
+.blog .blog-title{
+    padding-top: 20px;
+    margin-left: 10px;
+}
+.author {
+    padding-top: 70px;
+    margin-left: 10px;
+}
+.blog img {
+    width: 50%;
+}
+.course {
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+.course img {
+    width: 100%;
+}
+i.filled {
+    color: #4A00E0;
+}
+.clock {
+    display: flex;
+    margin-left: 20%;
+    padding: 5px;
+}
+.fa-clock {
+   padding: 2px;
+}
